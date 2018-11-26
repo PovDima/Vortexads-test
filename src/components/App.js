@@ -72,7 +72,7 @@ class App extends React.Component {
                             <InputGroup>
                                 <Input name={'arr'} placeholder={'A array'} onChange={this.onChange} />
                                 <InputGroupAddon addonType="append">
-                                    <Button onClick={this.countCar} color="success">To the Right!</Button>
+                                    <Button onClick={this.countCar} color="success">Submit</Button>
                                 </InputGroupAddon>
                             </InputGroup>
                             :
